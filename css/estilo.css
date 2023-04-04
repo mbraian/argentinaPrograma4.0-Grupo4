@@ -1,0 +1,129 @@
+/* universal */
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flexbox;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    justify-content: center;
+}
+
+/* etiquetas */
+body {background-color: #b9a7ec; background-image: linear-gradient(147deg, #b9a7ec 0%, #ffffff 53%, #b9a7ec 100%);}
+
+section {display: flex
+    justify-content: center;
+    padding: 15px;
+    margin: 35px;}
+
+footer { background-color: #f4f2fc;
+margin: 0px;
+border: 0px;
+padding: 15px; }
+
+header {padding: 25px;
+border: 0px;}
+
+h1, h2, h3 {padding: 0px;
+    display: flexbox;
+    justify-content: center;}
+
+li {list-style: none;
+    padding: 20px;
+    margin: 2px;
+    border: 10px;
+    display: flex;}
+
+li:hover{border-bottom: 5px solid rgb(110, 110, 110);}
+
+button {font-size: larger;
+    padding: 25px;
+    border: 5px solid #702fac
+    border-radius: 5px;}
+
+button:hover {background-color: #8a21ec; border: 5px; color: white;}
+
+p {background-color: #ebedee; 
+    font-size: 120%;
+    box-shadow: 5px 3px 10px rgb(94, 94, 94);
+    color: #702fac;
+    padding: 10px;
+    margin: 5px;
+    border: 0px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center}    
+
+/* decendiente */
+
+.menú {display: flex;
+    justify-content: center;
+    font-style: unset;}
+
+.sub1, .sub2 { border-bottom:3px solid #a94efe; 
+    display: flexbox;
+    justify-content: center;
+    padding: 10px;
+    border: 5px;
+    margin: 2px;}
+
+.ulredes {display: flex;
+    justify-content: end;}
+
+.listagaleria {justify-content: left;}
+
+.galeria {margin: 10px;
+    padding: 10px;}
+
+.tit2, .tit5, .tit6, .tit7, .tit8 {display: flex;
+    font-size: 200%;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;}
+
+.tit1 {font-size: 300%; margin: 10px} 
+
+.sub1 {font-size: 150%;}
+    
+.tit1, .tit2, .tit5, .tit6, .tit7, .tit8 {text-shadow: 5px 3px 10px rgb(94, 94, 94)}
+
+.tit3, .tit4 {padding: 15px;}
+
+.inicio {display: flex;
+    justify-content: center;}
+
+.imglandingpage {display: flex;
+    justify-content: center;}   
+
+.presupuesto {size: 150%;
+    display: flex;
+    justify-content: right}
+
+.equipo1, .equipo2 {display: flex; justify-content: center;}
+
+
+
+
+/* imágenes */
+
+.imgsec1 { width: 65%;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;}
+
+.imgtattoos {border-radius: 0px;
+     justify-content: center;}
+
+.imgdiseños {border-radius: 200px}
+
+.quienessomos {display: flex; justify-content: center;}
+.fotoestudio {display: flex; justify-content: center; width: 25%;}
+
+.fotocami {width: 55%;}
+
+img {width: 13%;
+    display: flexbox;
+    justify-content: center;
+    padding: 15px;
+    margin: 10px;}
+ 
