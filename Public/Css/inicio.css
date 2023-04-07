@@ -127,3 +127,19 @@ img {width: 13%;
     padding: 15px;
     margin: 10px;}
  
+
+
+
+
+
+/* estilos navbar */
+#principalLink:hover, #galeríaLink:hover, #contactoLink:hover, #sobrenosotrosLink:hover{
+    border-bottom: 5px solid rgb(110, 110, 110);
+    text-shadow: 2px 2px 2px black;
+    color: whitesmoke;
+    font-weight: bolder;
+    transition: all 0.3s;
+}
+#vaquita{
+    width: 100px;
+}
