@@ -92,8 +92,6 @@ p {background-color: #ebedee;
     
 .tit1, .tit2, .tit5, .tit6, .tit7, .tit8 {text-shadow: 5px 3px 10px rgb(94, 94, 94)}
 
-.tit3, .tit4 {padding: 15px;}
-
 .inicio {display: flex;
     justify-content: center;}
 
@@ -119,25 +117,28 @@ p {background-color: #ebedee;
 .imgtattoos {border-radius: 0px;
      justify-content: center;}
 
-.imgdiseños {border-radius: 200px}
-
-.quienessomos {display: flex; justify-content: center;}
+     
+     .quienessomos {display: flex; justify-content: center;}
 .fotoestudio {display: flex; justify-content: center; width: 25%;}
 
 .fotocami {width: 55%;}
 
-img {width: 13%;
+/* img {width: 13%;
     display: flexbox;
+
     justify-content: center;
     padding: 15px;
     margin: 10px;}
- 
+  */
 
 
 
 
 
-/* ----------------------------------ESTILOS NAVBAR (no modificar) ------------------------*/
+    /* ----------------------------------ESTILOS NAVBAR (no modificar) ------------------------*/
+#principalLink{
+    margin-left: 20px;
+}
 #principalLink:hover, #galeríaLink:hover, #contactoLink:hover, #sobrenosotrosLink:hover{
     border-bottom: 5px solid rgb(110, 110, 110);
     text-shadow: 2px 2px 2px black;
@@ -146,7 +147,7 @@ img {width: 13%;
     transition: all 0.3s;
 }
 #vaquita{
-    width: 100px;
+    width: 70px;
 }
 
 #inicio{
@@ -162,8 +163,25 @@ img {width: 13%;
 
 
 /* GALERIA */
-#galeria_cont{
-
+#sec_trabajos{
+    margin-top: 0px;
+    padding: 0px;
+}
+.tit3, .sub2{
+    padding: 0px;
+    margin-left: 0px;
+}
+.sub2{
+    margin-bottom: 30px;
+}
+.tit3{
+    text-align: center;
+}
+.tit4{
+    margin-top: 40px;
+}
+.sub2,.tit4{
+    letter-spacing: 4px;
 }
 
 #prevbtn:hover,#nextbtn:hover{
@@ -172,4 +190,24 @@ img {width: 13%;
     border-radius: 10px;
     opacity: 0.5;
     border: 2px solid #a94efe;
+}
+
+.div_diseños{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.imgdiseños {
+    width: 250px;
+    border-radius: 50%;
+    transition: 200ms linear;
+    margin: 10px;
+}
+
+.imgdiseños:hover{
+    transform: scale(107%);
+    box-shadow: 0 0 30px rgb(110, 110, 110);
+    border: 2px solid black;
+    cursor: pointer;
 }
