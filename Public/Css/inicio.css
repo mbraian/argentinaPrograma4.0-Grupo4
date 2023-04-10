@@ -41,23 +41,11 @@ button {font-size: larger;
     padding: 25px;
     background-color: white;
     border-radius: 5px;
-}
+    border: 5px solid #a94efe;}
 
-button:hover {background-color: white; border: 5px; color:  #8a21ec;
-    border: 5px solid #702fac;
-    box-shadow: 2px 2px 2px white;
-}
-
-p {background-color: #ebedee; 
-    font-size: 120%;
-    box-shadow: 5px 3px 10px rgb(94, 94, 94);
-    color: #702fac;
-    padding: 10px;
-    margin: 5px;
-    border: 0px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center}    
+button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
+    box-shadow: 5px 5px 10px white;
+}  
 
 /* decendiente */
 
@@ -86,9 +74,9 @@ p {background-color: #ebedee;
     padding: 20px;
     margin: 10px;}
 
-.tit1 {font-size: 300%; margin: 10px} 
+.tit1 {font-size: 300%; margin: 10px; justify-content: left;} 
 
-.sub1 {font-size: 150%;}
+.sub1 {font-size: 150%; justify-content: left;}
     
 .tit1, .tit2, .tit5, .tit6, .tit7, .tit8 {text-shadow: 5px 3px 10px rgb(94, 94, 94)}
 
@@ -100,11 +88,24 @@ p {background-color: #ebedee;
 
 .presupuesto {size: 150%;
     display: flex;
-    justify-content: right}
+    justify-content: end;}
 
 .equipo1, .equipo2 {display: flex; justify-content: center;}
 
+.biocami, .biochristian, .biobraian, .biotomas, .bioivi {font-family: 'Roboto Condensed', sans-serif;
+    background-color: #ebedee; 
+    font-size: 120%;
+    box-shadow: 5px 3px 10px rgb(94, 94, 94);
+    color: #702fac;
+    padding: 10px;
+    margin: 5px;
+    border: 0px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center
+}
 
+.titcami, .titchristian, .titbraian, .titivi, .tittomas {color: #433d49; text-align: center;}
 
 
 /* imágenes */
@@ -118,10 +119,16 @@ p {background-color: #ebedee;
      justify-content: center;}
 
      
-     .quienessomos {display: flex; justify-content: center;}
+.quienessomos {display: flex; justify-content: center;}
+
 .fotoestudio {display: flex; justify-content: center; width: 25%;}
 
-.fotocami {width: 55%;}
+.fotocami {
+    display: flexbox;
+    justify-content: center;
+    padding: 15px;
+    margin: 10px;
+}
 
 /* img {width: 13%;
     display: flexbox;
@@ -132,9 +139,6 @@ p {background-color: #ebedee;
   */
 
 
-
-
-
     /* ----------------------------------ESTILOS NAVBAR (no modificar) ------------------------*/
 #principalLink{
     margin-left: 20px;
@@ -142,7 +146,7 @@ p {background-color: #ebedee;
 #principalLink:hover, #galeríaLink:hover, #contactoLink:hover, #sobrenosotrosLink:hover{
     border-bottom: 5px solid rgb(110, 110, 110);
     text-shadow: 2px 2px 2px black;
-    color: whitesmoke;
+    color: rgb(245, 245, 245);
     font-weight: bolder;
     transition: all 0.3s;
 }
@@ -163,7 +167,7 @@ p {background-color: #ebedee;
 
 
 /* GALERIA */
-#sec_trabajos{
+#sec_trabajos{ 
     margin-top: 0px;
     padding: 0px;
 }
@@ -189,7 +193,6 @@ p {background-color: #ebedee;
     margin: 0;
     border-radius: 10px;
     opacity: 0.5;
-    border: 2px solid #a94efe;
 }
 
 .div_diseños{
@@ -206,7 +209,7 @@ p {background-color: #ebedee;
 }
 
 .imgdiseños:hover{
-    transform: scale(107%);
+    transform: scale(120%);
     box-shadow: 0 0 30px rgb(110, 110, 110);
     border: 2px solid black;
     cursor: pointer;
