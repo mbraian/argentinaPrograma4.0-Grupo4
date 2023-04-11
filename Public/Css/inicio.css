@@ -2,7 +2,7 @@
 *{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Quicksand', sans-serif;
-    font-family: 'Staatliches', cursive;    display: flexbox;
+    font-family: 'Staatliches';
     padding: 0px;
     margin: 0px;
     border: 0px;
@@ -12,9 +12,7 @@
 /* etiquetas */
 body {background-color: #b9a7ec; background-image: linear-gradient(147deg, #b9a7ec 0%, #ffffff 53%, #b9a7ec 100%);}
 
-
 section {
-    /* display: flex; */
     justify-content: center;
     padding: 15px;
     margin: 35px;}
@@ -28,38 +26,17 @@ header {padding: 25px;
 border: 0px;}
 
 h1, h2, h3 {padding: 0px;
-    display: flexbox;
     justify-content: center;}
-
-li {list-style: none;
-    padding: 20px;
-    margin: 2px;
-    border: 10px;
-    display: flex;}
-
-li:hover{border-bottom: 5px solid rgb(110, 110, 110);}
 
 button {font-size: larger;
     padding: 25px;
     background-color: white;
     border-radius: 5px;
-}
+    border: 5px solid #a94efe;}
 
-button:hover {background-color: white; border: 5px; color:  #8a21ec;
-    border: 5px solid #702fac;
-    box-shadow: 2px 2px 2px white;
-}
-
-p {background-color: #ebedee; 
-    font-size: 120%;
-    box-shadow: 5px 3px 10px rgb(94, 94, 94);
-    color: #702fac;
-    padding: 10px;
-    margin: 5px;
-    border: 0px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center}    
+button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
+    box-shadow: 5px 5px 10px white;
+}  
 
 /* decendiente */
 
@@ -67,8 +44,7 @@ p {background-color: #ebedee;
     justify-content: center;
     font-style: unset;}
 
-.sub1, .sub2 { border-bottom:3px solid #a94efe; 
-    display: flexbox;
+.sub1, .sub2, .sub8, .sub9 { border-bottom:3px solid #a94efe; 
     justify-content: center;
     padding: 10px;
     border: 5px;
@@ -82,18 +58,16 @@ p {background-color: #ebedee;
 .galeria {margin: 10px;
     padding: 10px;}
 
-.tit2, .tit5, .tit6, .tit7, .tit8 {display: flex;
+.tit2, .tit5, .tit6, .tit7, {display: flex;
     font-size: 200%;
     justify-content: center;
     padding: 20px;
     margin: 10px;}
 
-.tit1 {font-size: 300%; margin: 10px} 
+.tit1 {font-size: 300%; margin: 10px; justify-content: left;} 
 
-.sub1 {font-size: 150%;}
+.sub1 {font-size: 150%; justify-content: left;}
     
-.tit1, .tit2, .tit5, .tit6, .tit7, .tit8 {text-shadow: 5px 3px 10px rgb(94, 94, 94)}
-
 .inicio {display: flex;
     justify-content: center;}
 
@@ -102,12 +76,48 @@ p {background-color: #ebedee;
 
 .presupuesto {size: 150%;
     display: flex;
-    justify-content: right}
+    justify-content: end;}
 
 .equipo1, .equipo2 {display: flex; justify-content: center;}
 
+.biocami, .biochristian, .biobraian, .biotomas, .bioivi {font-family: 'Roboto Condensed', sans-serif;
+    background-color: #ebedee; 
+    font-size: 120%;
+    box-shadow: 5px 3px 10px rgb(94, 94, 94);
+    color: #702fac;
+    padding: 10px;
+    margin: 5px;
+    border: 0px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center
+}
 
+.titcami, .titchristian, .titbraian, .titivi, .tittomas {color: #702fac; text-align: center;}
 
+.nosotros-cuerpo {align-items: center; padding: 50px;}
+
+.nos1, .nos2, .nos3 {
+    list-style: none;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #ebedee; 
+    font-size: 100%;
+    box-shadow: 5px 3px 10px rgb(94, 94, 94);
+    color: #702fac;
+    padding: 10px;
+    margin: 20px;
+    border: 10px;
+    border-radius: 20px;
+    display: flexbox;}
+
+#itemsnos {font-family: 'Roboto Condensed', sans-serif;
+        padding: 2px;}
+
+.cualidades, .secquienessomos {display: flex; justify-content: center;}
+
+.nosotros-texto { font-family: 'Roboto Condensed', sans-serif;
+    padding: 2px;}
 
 /* imágenes */
 
@@ -116,13 +126,118 @@ p {background-color: #ebedee;
     border: 0px;
     margin: 0px;}
 
-.imgtattoos {border-radius: 0px; justify-content: center;}
+.imgtattoos {border-radius: 0px;
+    justify-content: center;}
 
+     
 .quienessomos {display: flex; justify-content: center;}
 
 .fotoestudio {display: flex; justify-content: center; width: 25%;}
 
-.fotocami {width: 55%;}
+.fotocami, .fototomas, .fotoivi, .fotochristian, .fotobraian {
+    display: flexbox;
+    align-items: center;
+}
+
+.nosotros-imagen-estudio, .nosotros-imagen-estudio-dos { align-items: center;}
+
+.Informacion {
+    float: left;
+    width: 50%;}
+
+  .Informacion p {
+    font-family: 'Roboto Condensed', sans-serif;}
+
+.Formulario {
+    background-color: #dbd1f7;
+    width: 500px;
+    padding: 30px;
+    margin-top: 25px;
+    margin-left: 1000px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #b9a7ec;
+    box-shadow: 10px 10px 20px #4e4d54;
+    margin-bottom: 150px; /* Agrega un margen abajo para que el footer se vea bien ya que el background image es mas grande que el contenido de esta pagina */
+  }
+  
+.Formulario h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .controles {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    border: 1px solid #825ceb;
+    font-size: 15px;
+  }
+  
+  .Formulario p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .Formulario a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .Formulario a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .Formulario .boton {
+    width: 440px;
+    background: #a991eb;
+    border: 10px;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  
+  .Informacion {
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  
+  .Informacion h1{
+      padding-left: 10px;
+  }
+  .Informacion p{
+      margin-top: 25px;
+      padding-left: 10px;
+  }
+  .List{
+    list-style: none;
+    padding: 10px;
+    margin: 2px;
+    border: 10px;
+    display: flexbox;
+  }
+  .Lista{ 
+    font-family: 'Roboto Condensed', sans-serif; 
+  
+    
+  }
+  .Titulo1{
+    padding-left: 10px;
+    margin-top: 50px;
+  }
+  
+  .p1{
+    padding-left: 15px;
+    margin-top: 10px;
+  }
+  
+
 
 /* img {width: 13%;
     display: flexbox;
@@ -133,9 +248,6 @@ p {background-color: #ebedee;
   */
 
 
-
-
-
     /* ----------------------------------ESTILOS NAVBAR (no modificar) ------------------------*/
 #principalLink{
     margin-left: 20px;
@@ -143,7 +255,7 @@ p {background-color: #ebedee;
 #principalLink:hover, #galeríaLink:hover, #contactoLink:hover, #sobrenosotrosLink:hover{
     border-bottom: 5px solid rgb(110, 110, 110);
     text-shadow: 2px 2px 2px black;
-    color: whitesmoke;
+    color: rgb(245, 245, 245);
     font-weight: bolder;
     transition: all 0.3s;
 }
@@ -164,8 +276,8 @@ p {background-color: #ebedee;
 
 
 /* GALERIA */
-#sec_trabajos{
-    margin-top: 0px;
+#sec_trabajos{ width: 50%
+    margin: 10px;
     padding: 0px;
 }
 .tit3, .sub2{
@@ -190,7 +302,6 @@ p {background-color: #ebedee;
     margin: 0;
     border-radius: 10px;
     opacity: 0.5;
-    border: 2px solid #a94efe;
 }
 
 .div_diseños{
@@ -207,7 +318,7 @@ p {background-color: #ebedee;
 }
 
 .imgdiseños:hover{
-    transform: scale(107%);
+    transform: scale(120%);
     box-shadow: 0 0 30px rgb(110, 110, 110);
     border: 2px solid black;
     cursor: pointer;
