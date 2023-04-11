@@ -28,13 +28,6 @@ border: 0px;}
 h1, h2, h3 {padding: 0px;
     justify-content: center;}
 
-li {list-style: none;
-    padding: 20px;
-    margin: 2px;
-    border: 10px;
-    display: flex;}
-
-
 button {font-size: larger;
     padding: 25px;
     background-color: white;
@@ -75,8 +68,6 @@ button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
 
 .sub1 {font-size: 150%; justify-content: left;}
     
-.tit1, .tit2, .tit5, .tit6, .tit7 {text-shadow: 5px 3px 10px rgb(209, 209, 209)}
-
 .inicio {display: flex;
     justify-content: center;}
 
@@ -102,19 +93,21 @@ button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
     align-items: center
 }
 
-.titcami, .titchristian, .titbraian, .titivi, .tittomas {color: #433d49; text-align: center;}
+.titcami, .titchristian, .titbraian, .titivi, .tittomas {color: #702fac; text-align: center;}
 
 .nosotros-cuerpo {align-items: center; padding: 50px;}
 
 .nos1, .nos2, .nos3 {
+    list-style: none;
+    text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #ebedee; 
     font-size: 100%;
     box-shadow: 5px 3px 10px rgb(94, 94, 94);
     color: #702fac;
     padding: 10px;
-    margin: 5px;
-    border: 0px;
+    margin: 20px;
+    border: 10px;
     border-radius: 20px;
     display: flexbox;}
 
@@ -141,14 +134,110 @@ button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
 
 .fotoestudio {display: flex; justify-content: center; width: 25%;}
 
-.fotocami {
+.fotocami, .fototomas, .fotoivi, .fotochristian, .fotobraian {
     display: flexbox;
-    justify-content: center;
-    padding: 15px;
-    margin: 10px;
+    align-items: center;
 }
 
 .nosotros-imagen-estudio, .nosotros-imagen-estudio-dos { align-items: center;}
+
+.Informacion {
+    float: left;
+    width: 50%;}
+
+  .Informacion p {
+    font-family: 'Roboto Condensed', sans-serif;}
+
+.Formulario {
+    background-color: #dbd1f7;
+    width: 500px;
+    padding: 30px;
+    margin-top: 25px;
+    margin-left: 1000px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #b9a7ec;
+    box-shadow: 10px 10px 20px #4e4d54;
+    margin-bottom: 150px; /* Agrega un margen abajo para que el footer se vea bien ya que el background image es mas grande que el contenido de esta pagina */
+  }
+  
+.Formulario h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .controles {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    border: 1px solid #825ceb;
+    font-size: 15px;
+  }
+  
+  .Formulario p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .Formulario a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .Formulario a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .Formulario .boton {
+    width: 440px;
+    background: #a991eb;
+    border: 10px;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  
+  .Informacion {
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  
+  .Informacion h1{
+      padding-left: 10px;
+  }
+  .Informacion p{
+      margin-top: 25px;
+      padding-left: 10px;
+  }
+  .List{
+    list-style: none;
+    padding: 10px;
+    margin: 2px;
+    border: 10px;
+    display: flexbox;
+  }
+  .Lista{ 
+    font-family: 'Roboto Condensed', sans-serif; 
+  
+    
+  }
+  .Titulo1{
+    padding-left: 10px;
+    margin-top: 50px;
+  }
+  
+  .p1{
+    padding-left: 15px;
+    margin-top: 10px;
+  }
+  
+
 
 /* img {width: 13%;
     display: flexbox;
@@ -187,8 +276,8 @@ button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
 
 
 /* GALERIA */
-#sec_trabajos{ 
-    margin-top: 0px;
+#sec_trabajos{ width: 50%
+    margin: 10px;
     padding: 0px;
 }
 .tit3, .sub2{
