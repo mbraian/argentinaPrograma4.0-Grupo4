@@ -12,7 +12,9 @@
 /* etiquetas */
 body {background-color: #b9a7ec; background-image: linear-gradient(147deg, #b9a7ec 0%, #ffffff 53%, #b9a7ec 100%);}
 
-section {display: flex
+
+section {
+    /* display: flex; */
     justify-content: center;
     padding: 15px;
     margin: 35px;}
@@ -114,11 +116,10 @@ p {background-color: #ebedee;
     border: 0px;
     margin: 0px;}
 
-.imgtattoos {border-radius: 0px;
-     justify-content: center;}
+.imgtattoos {border-radius: 0px; justify-content: center;}
 
-     
-     .quienessomos {display: flex; justify-content: center;}
+.quienessomos {display: flex; justify-content: center;}
+
 .fotoestudio {display: flex; justify-content: center; width: 25%;}
 
 .fotocami {width: 55%;}
