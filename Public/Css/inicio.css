@@ -2,7 +2,7 @@
 *{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Quicksand', sans-serif;
-    font-family: 'Staatliches', cursive;    display: flexbox;
+    font-family: 'Staatliches', cursive;
     padding: 0px;
     margin: 0px;
     border: 0px;
@@ -12,7 +12,7 @@
 /* etiquetas */
 body {background-color: #b9a7ec; background-image: linear-gradient(147deg, #b9a7ec 0%, #ffffff 53%, #b9a7ec 100%);}
 
-section {display: flex
+section {
     justify-content: center;
     padding: 15px;
     margin: 35px;}
@@ -26,7 +26,6 @@ header {padding: 25px;
 border: 0px;}
 
 h1, h2, h3 {padding: 0px;
-    display: flexbox;
     justify-content: center;}
 
 li {list-style: none;
@@ -65,8 +64,7 @@ p {background-color: #ebedee;
     justify-content: center;
     font-style: unset;}
 
-.sub1, .sub2 { border-bottom:3px solid #a94efe; 
-    display: flexbox;
+.sub1, .sub2, .sub8, .sub9 { border-bottom:3px solid #a94efe; 
     justify-content: center;
     padding: 10px;
     border: 5px;
@@ -80,7 +78,7 @@ p {background-color: #ebedee;
 .galeria {margin: 10px;
     padding: 10px;}
 
-.tit2, .tit5, .tit6, .tit7, .tit8 {display: flex;
+.tit2, .tit5, .tit6, .tit7 {display: flex;
     font-size: 200%;
     justify-content: center;
     padding: 20px;
@@ -90,9 +88,9 @@ p {background-color: #ebedee;
 
 .sub1 {font-size: 150%;}
     
-.tit1, .tit2, .tit5, .tit6, .tit7, .tit8 {text-shadow: 5px 3px 10px rgb(94, 94, 94)}
+.tit1, .tit2, .tit5, .tit6, .tit7 {text-shadow: 5px 3px 10px rgb(94, 94, 94)}
 
-.tit3, .tit4 {padding: 15px;}
+.tit3, .tit4, .tit8, .tit9 {padding: 15px;}
 
 .inicio {display: flex;
     justify-content: center;}
@@ -117,7 +115,7 @@ p {background-color: #ebedee;
     margin: 0px;}
 
 .imgtattoos {border-radius: 0px;
-     justify-content: center;}
+    justify-content: center;}
 
 .imgdiseños {border-radius: 200px}
 
@@ -131,7 +129,7 @@ img {width: 13%;
     justify-content: center;
     padding: 15px;
     margin: 10px;}
- 
+
 
 
 
@@ -162,9 +160,9 @@ img {width: 13%;
 
 
 /* GALERIA */
-#galeria_cont{
+/* #galeria_cont{
 
-}
+} */
 
 #prevbtn:hover,#nextbtn:hover{
     background-color: #ebedee;
@@ -173,3 +171,34 @@ img {width: 13%;
     opacity: 0.5;
     border: 2px solid #a94efe;
 }
+
+/* ----------------------------------------------- */
+
+/* NOSOTROS */
+
+.nosotros-cuerpo {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.nosotros-imagen-estudio, .nosotros-imagen-estudio-dos {
+    border-radius: 30px;
+    width: 250px;
+}
+
+.nosotros-texto {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.nosotros-imagen-mapa {
+    border-radius: 30px;
+    width: 100%
+}
+
+
