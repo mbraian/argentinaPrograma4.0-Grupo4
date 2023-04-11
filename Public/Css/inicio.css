@@ -196,10 +196,16 @@ button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
   .Formulario .boton {
     width: 440px;
     background: #a991eb;
-    border: 10px;
+    border: 2px solid transparent;
     padding: 12px;
     margin: 16px 0;
     font-size: 16px;
+  }
+
+  .boton:hover{
+    transform: scale(1.05);
+    border: 2px solid black;
+    cursor: pointer;
   }
   
   .Informacion {
