@@ -62,7 +62,8 @@ button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
     font-size: 200%;
     justify-content: center;
     padding: 20px;
-    margin: 10px;}
+    margin: 10px;
+}
 
 .tit1 {font-size: 300%; margin: 10px; justify-content: left;} 
 
@@ -129,7 +130,7 @@ button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
 .imgtattoos {border-radius: 0px;
     justify-content: center;}
 
-     
+
 .quienessomos {display: flex; justify-content: center;}
 
 .fotoestudio {display: flex; justify-content: center; width: 25%;}
@@ -145,7 +146,7 @@ button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
     float: left;
     width: 50%;}
 
-  .Informacion p {
+.Informacion p {
     font-family: 'Roboto Condensed', sans-serif;}
 
 .Formulario {
@@ -160,89 +161,88 @@ button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
     border-color: #b9a7ec;
     box-shadow: 10px 10px 20px #4e4d54;
     margin-bottom: 150px; /* Agrega un margen abajo para que el footer se vea bien ya que el background image es mas grande que el contenido de esta pagina */
-  }
-  
+}
+
 .Formulario h3 {
     font-size: 20px;
     margin-bottom: 20px;
-  }
-  
-  .controles {
+}
+.controles {
     width: 100%;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 5px;
     border: 1px solid #825ceb;
     font-size: 15px;
-  }
-  
-  .Formulario p {
+}
+
+.Formulario p {
     height: 40px;
     text-align: center;
     font-size: 18px;
     line-height: 40px;
-  }
-  
-  .Formulario a {
+}
+
+.Formulario a {
     color: black;
     text-decoration: none;
-  }
-  
-  .Formulario a:hover {
+}
+
+.Formulario a:hover {
     color: black;
     text-decoration: underline;
-  }
-  
-  .Formulario .boton {
+}
+
+.Formulario .boton {
     width: 440px;
     background: #a991eb;
     border: 2px solid transparent;
     padding: 12px;
     margin: 16px 0;
     font-size: 16px;
-  }
+}
 
-  .boton:hover{
+.boton:hover{
     transform: scale(1.05);
     border: 2px solid black;
     cursor: pointer;
-  }
-  
-  .Informacion {
+}
+
+.Informacion {
     margin-top: 25px;
     padding-top: 20px;
     padding-left: 20px;
-  }
-  
-  .Informacion h1{
-      padding-left: 10px;
-  }
-  .Informacion p{
-      margin-top: 25px;
-      padding-left: 10px;
-  }
-  .List{
+}
+
+.Informacion h1{
+padding-left: 10px;
+}
+.Informacion p{
+margin-top: 25px;
+padding-left: 10px;
+}
+.List{
     list-style: none;
     padding: 10px;
     margin: 2px;
     border: 10px;
     display: flexbox;
-  }
-  .Lista{ 
+}
+.Lista{ 
     font-family: 'Roboto Condensed', sans-serif; 
-  
+
     
-  }
-  .Titulo1{
+}
+.Titulo1{
     padding-left: 10px;
     margin-top: 50px;
-  }
-  
-  .p1{
+}
+
+.p1{
     padding-left: 15px;
     margin-top: 10px;
-  }
-  
+}
+
 
 
 /* img {width: 13%;
