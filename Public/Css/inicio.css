@@ -2,7 +2,7 @@
 *{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Quicksand', sans-serif;
-    font-family: 'Staatliches', cursive;    display: flexbox;
+    font-family: 'Staatliches';
     padding: 0px;
     margin: 0px;
     border: 0px;
@@ -12,7 +12,7 @@
 /* etiquetas */
 body {background-color: #b9a7ec; background-image: linear-gradient(147deg, #b9a7ec 0%, #ffffff 53%, #b9a7ec 100%);}
 
-section {display: flex
+section {
     justify-content: center;
     padding: 15px;
     margin: 35px;}
@@ -26,7 +26,6 @@ header {padding: 25px;
 border: 0px;}
 
 h1, h2, h3 {padding: 0px;
-    display: flexbox;
     justify-content: center;}
 
 li {list-style: none;
@@ -35,7 +34,6 @@ li {list-style: none;
     border: 10px;
     display: flex;}
 
-li:hover{border-bottom: 5px solid rgb(110, 110, 110);}
 
 button {font-size: larger;
     padding: 25px;
@@ -53,8 +51,7 @@ button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
     justify-content: center;
     font-style: unset;}
 
-.sub1, .sub2 { border-bottom:3px solid #a94efe; 
-    display: flexbox;
+.sub1, .sub2, .sub8, .sub9 { border-bottom:3px solid #a94efe; 
     justify-content: center;
     padding: 10px;
     border: 5px;
@@ -68,7 +65,7 @@ button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
 .galeria {margin: 10px;
     padding: 10px;}
 
-.tit2, .tit5, .tit6, .tit7, .tit8 {display: flex;
+.tit2, .tit5, .tit6, .tit7, {display: flex;
     font-size: 200%;
     justify-content: center;
     padding: 20px;
@@ -78,7 +75,7 @@ button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
 
 .sub1 {font-size: 150%; justify-content: left;}
     
-.tit1, .tit2, .tit5, .tit6, .tit7, .tit8 {text-shadow: 5px 3px 10px rgb(94, 94, 94)}
+.tit1, .tit2, .tit5, .tit6, .tit7 {text-shadow: 5px 3px 10px rgb(209, 209, 209)}
 
 .inicio {display: flex;
     justify-content: center;}
@@ -107,6 +104,27 @@ button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
 
 .titcami, .titchristian, .titbraian, .titivi, .tittomas {color: #433d49; text-align: center;}
 
+.nosotros-cuerpo {align-items: center; padding: 50px;}
+
+.nos1, .nos2, .nos3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #ebedee; 
+    font-size: 100%;
+    box-shadow: 5px 3px 10px rgb(94, 94, 94);
+    color: #702fac;
+    padding: 10px;
+    margin: 5px;
+    border: 0px;
+    border-radius: 20px;
+    display: flexbox;}
+
+#itemsnos {font-family: 'Roboto Condensed', sans-serif;
+        padding: 2px;}
+
+.cualidades, .secquienessomos {display: flex; justify-content: center;}
+
+.nosotros-texto { font-family: 'Roboto Condensed', sans-serif;
+    padding: 2px;}
 
 /* imágenes */
 
@@ -116,7 +134,7 @@ button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
     margin: 0px;}
 
 .imgtattoos {border-radius: 0px;
-     justify-content: center;}
+    justify-content: center;}
 
      
 .quienessomos {display: flex; justify-content: center;}
@@ -129,6 +147,8 @@ button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
     padding: 15px;
     margin: 10px;
 }
+
+.nosotros-imagen-estudio, .nosotros-imagen-estudio-dos { align-items: center;}
 
 /* img {width: 13%;
     display: flexbox;
