@@ -20,7 +20,8 @@ section {
 footer { background-color: #f4f2fc;
 margin: 0px;
 border: 0px;
-padding: 15px; }
+padding: 15px;
+}
 
 header {padding: 25px;
 border: 0px;}
@@ -345,3 +346,29 @@ padding-left: 10px;
     border: 2px solid black;
     cursor: pointer;
 }
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+
+/* FOOTER */
+
+.divfooter {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.copyright {
+    padding-top: 10px;
+}
+
+.divredes a {
+    padding: 10px;
+}
+
+.iconredes {
+    width: 32px;
+    height: 32px;
+}
+
