@@ -20,7 +20,8 @@ section {
 footer { background-color: #f4f2fc;
 margin: 0px;
 border: 0px;
-padding: 15px; }
+padding: 15px;
+}
 
 header {padding: 25px;
 border: 0px;}
@@ -169,9 +170,7 @@ button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
     border-style: solid;
     border-radius: 5px;
     border-color: #b9a7ec;
-    box-shadow: 10px 10px 20px #4e4d54;
-    margin-bottom: 150px; /* Agrega un margen abajo para que el footer se vea bien ya que el background image es mas grande que el contenido de esta pagina */
-}
+    box-shadow: 10px 10px 20px #4e4d54;}
 
 .Formulario h3 {
     font-size: 20px;
@@ -349,6 +348,7 @@ padding-left: 10px;
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 .condiciones{
     font-family: 'Roboto Condensed', sans-serif;
     background-color: white;
@@ -367,5 +367,30 @@ padding-left: 10px;
 
 .cuadrito{
     padding-left: 20px;
+=======
+
+/* ---------------------------------------------------------------------------------------- */
+
+
+/* FOOTER */
+
+.divfooter {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.copyright {
+    padding-top: 10px;
+}
+
+.divredes a {
+    padding: 10px;
+}
+
+.iconredes {
+    width: 32px;
+    height: 32px;
+>>>>>>> dd575d301c086d039cecbdffd3b4f98abc392d57
 }
 
