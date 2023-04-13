@@ -170,9 +170,7 @@ button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
     border-style: solid;
     border-radius: 5px;
     border-color: #b9a7ec;
-    box-shadow: 10px 10px 20px #4e4d54;
-    margin-bottom: 150px; /* Agrega un margen abajo para que el footer se vea bien ya que el background image es mas grande que el contenido de esta pagina */
-}
+    box-shadow: 10px 10px 20px #4e4d54;}
 
 .Formulario h3 {
     font-size: 20px;
