@@ -142,6 +142,9 @@ button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
 
 .nosotros-imagen-estudio, .nosotros-imagen-estudio-dos { align-items: center;}
 
+.Informacion, .Formulario{
+    height: 570px;
+}
 .Informacion {
     float: left;
     width: 50%;}
