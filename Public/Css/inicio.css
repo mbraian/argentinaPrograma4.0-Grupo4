@@ -191,6 +191,9 @@ button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
     text-align: center;
     font-size: 18px;
     line-height: 40px;
+    font-family:'Roboto Condensed', sans-serif; 
+    padding-top: 10px;
+    
 }
 
 .Formulario a {
@@ -292,8 +295,8 @@ padding-left: 10px;
 
 
 /* GALERIA */
-#sec_trabajos{ width: 50%
-    margin: 10px;
+#sec_trabajos{ 
+    margin-top: 0px;
     padding: 0px;
 }
 .tit3, .sub2{
@@ -345,3 +348,24 @@ padding-left: 10px;
     border: 2px solid black;
     cursor: pointer;
 }
+
+.condiciones{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.condiciones p{
+    height: 1000px;
+    margin-top: 20px;
+}
+
+.Base{
+    display: flex;
+    align-items: center;
+}
+
+.cuadrito{
+    padding-left: 20px;
+}
+
