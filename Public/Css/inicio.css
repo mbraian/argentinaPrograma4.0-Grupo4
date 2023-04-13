@@ -145,6 +145,13 @@ button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
 .Informacion, .Formulario{
     height: 570px;
 }
+.nosotros-imagen-mapa {
+	width: 100%;
+}
+
+.Informacion, .Formulario{
+    height: 570px;
+}
 .Informacion {
     float: left;
     width: 50%;}
@@ -312,6 +319,12 @@ padding-left: 10px;
     border-radius: 10px;
     opacity: 0.5;
 }
+
+#prevbtn,#nextbtn{
+    background-color: #c088f5;
+    margin: 0;
+    border-radius: 10px;
+    opacity: 0.5;}
 
 .div_diseños{
     display: flex;
