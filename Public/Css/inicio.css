@@ -58,7 +58,7 @@ button:hover {background-color: #a94efe; border-radius: 5px; color: #fcfcfc;
 .galeria {margin: 10px;
     padding: 10px;}
 
-.tit2, .tit5, .tit6, .tit7, {display: flex;
+.tit2, .tit5, .tit6, .tit7 {display: flex;
     font-size: 200%;
     justify-content: center;
     padding: 20px;
