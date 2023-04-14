@@ -138,7 +138,7 @@ button:hover {
 }
 
 .biocami,
-.biochristian,
+.biocristian,
 .biobraian,
 .biotomas,
 .bioivi {
@@ -156,7 +156,7 @@ button:hover {
 }
 
 .titcami,
-.titchristian,
+.titcristian,
 .titbraian,
 .titivi,
 .tittomas {
@@ -230,10 +230,16 @@ button:hover {
 .fotocami,
 .fototomas,
 .fotoivi,
-.fotochristian,
+.fotocristian,
 .fotobraian {
   display: flexbox;
   align-items: center;
+}
+
+.fotocristian {
+  width: 400px;
+  height: 388px;
+  border-radius: 50%;
 }
 
 .nosotros-imagen-estudio,
